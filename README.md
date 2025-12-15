@@ -26,11 +26,11 @@ Java Swing을 이용하여 개발한 GUI 기반의 **숫자 맞추기 게임**�
 클래스를 역할별로 분리하였습니다.
 
 ### 1. Main.java
-* **역할:** 프로그램의 진입점(Entry Point).
+* **역할:** 프로그램의 진입점.
 * **특징:** `SwingUtilities.invokeLater`를 사용하여 스윙 스레드의 안전성을 확보하며 GUI를 실행합니다.
 
 ### 2. GameFrame.java
-* **역할:** 화면(View) 구성 및 게임 로직(Controller) 담당.
+* **역할:** 화면 구성 및 게임 로직 담당.
 * **구성 요소:**
     * `initGame()`: 난수 생성 및 UI 초기화 메소드.
     * `checkNumber()`: 사용자의 입력값을 검증하고 정답과 비교하는 핵심 로직.
@@ -44,6 +44,6 @@ https://github.com/user-attachments/assets/901c13a6-c3c0-46ae-831d-86af2e80fa1a
 
 
 ## 🚀 실행 방법
-1.  프로젝트를 다운로드(Clone) 합니다.
+1.  프로젝트를 다운로드 합니다.
 2.  IntelliJ IDEA에서 프로젝트를 엽니다.
-3.  `src/Main.java` 파일을 실행(Run) 합니다.
+3.  `src/Main.java` 파일을 실행 합니다.
